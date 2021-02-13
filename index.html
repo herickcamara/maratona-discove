@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dev.finance$</title>
+
+    <link rel="stylesheet" href="./style/config-basic.css">
+    <link rel="stylesheet" href="./style/config-header.css">
+    <link rel="stylesheet" href="./style/config-balanc.css">
+    <link rel="stylesheet" href="./style/config-table.css">
+    <link rel="stylesheet" href="./style/button-link.css">
+    <link rel="stylesheet" href="./style/config-media.css"> 
+    
+
+
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1> 
+        <img src="./assets/logo.svg" alt="logo dev finace">
+      </h1>
+     
+    </header>
+    <main class="contener">
+      <section id="balanc">
+        <h2 class="sr-onlyn">Balanço</h2>
+        <div class="card">
+          <h3>
+            Entrada
+            <img src="./assets/income.svg" alt="Entrada">
+          </h3>
+          <p id="incomeDisplay">R$ 0,00</p>
+        </div>
+        <div class="card">
+          <h3>
+            Saidas
+            <img src="./assets/expense.svg" alt="Entrada">
+          </h3>
+          <p id="expenseDisplay">R$ 0,00</p>
+        </div>
+        <div class="card total">
+          <h3>
+           Total
+            <img src="./assets/total.svg" alt="Entrada">
+          </h3>
+          <p id="totalDisplay">R$ 0,00</p>
+        </div>
+      </section>
+      <section class="dado-conta">
+        <h2 class="sr-onlyn">transferencia</h2>
+        <a href="#" class="button new" onclick="addToogle()">+ Nova Transaçao</a>
+        <table id="table">
+          <thead>
+            <tr>
+              <th>descricão</th>
+              <th>valor</th>
+              <th>data</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+        
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <div class="modal-overley  ">
+      <div class="modal">
+        <div class="form">
+          <h2>Nova transiçao</h2>
+          <form action="" onsubmit="Form.submit(event)">
+            <label for="" class="sr-onlyn">descricão</label>
+            <input type="text"
+             id="description"
+             placeholder="descrição">
+           <input type="number"
+              step="0.01"
+             id="amount"
+             placeholder="R$:0.00">
+             <spam>user "," para separa o numeros dessemais e "-"</spam>
+            <input type="date" id="data">
+
+            <div class="button">
+              <a href="#" onclick="addToogle()">Cancela</a>
+              <button>Enviar</button>
+            </div>
+          </form>
+        </div>
+        
+
+        </div>
+      </div>
+    </div>
+    <footer><p>dev.finance$</p></footer>
+        
+
+    <script src="script.js"></script>
+  </body>
+</html>

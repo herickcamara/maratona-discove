@@ -1,0 +1,45 @@
+/* # balanc ================ */
+#balanc{
+    margin-top: -7rem;
+}
+#balanc h2{
+    font-weight: normal;
+    color: #fff;
+}
+.sr-onlyn{
+    position: absolute;
+    width:1px;
+    height:1px;
+    padding:0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+.card{
+    background-color: #fff;
+    margin-top:1.5rem;
+    padding: 0 0.5rem;
+    line-height:2;
+    border-radius: 0.25rem;
+}
+.card.total, .card.total h3{
+    background-color:#49AA26;
+    color: #fff;
+    
+}
+.card h3{
+    font-weight: 400;
+    font-size: .5;
+    color: #59055c;
+    opacity: 0.7;
+    padding: 0.5rem 1rem 0 1
+    rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.card p {
+    font-size: 2rem;
+}

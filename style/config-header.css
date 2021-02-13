@@ -1,0 +1,12 @@
+/* # cabecalho ================ */
+
+header{
+    background-color: rgb(2, 104, 2);
+    height: 15rem;
+    text-align: center;
+}
+h1{
+    font-weight: 100;
+    color: #fff;
+    padding-top: 2rem;
+}

@@ -1,0 +1,14 @@
+
+/* # link & buttons ================ */
+.button.new{
+    display: inline-block;
+    color: rgb(2, 104, 2);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #109c23;
+}
