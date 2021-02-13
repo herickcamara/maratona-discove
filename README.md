@@ -1,6 +1,7 @@
 # maratona-discove
 
 #bungs
+
 au termina a aplicaçao ficou alguns bangs no arquivo script.js
 
 #como resolver
